@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/main_music/main_music",
+    "pages/main_video/main_video",
+    "components/video-item/video-item",
+    "pages/detail_video/detail_video",
+    "pages/detail_search/detail_search"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/main_music/main_music",
+        "text": "音乐",
+        "iconPath": "assets/images/tabbar/music_normal.png",
+        "selectedIconPath": "assets/images/tabbar/music_active.png"
+      },
+      {
+        "pagePath": "pages/main_video/main_video",
+        "text": "视频",
+        "iconPath": "assets/images/tabbar/video_normal.png",
+        "selectedIconPath": "assets/images/tabbar/video_active.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFC0CB",
+    "navigationBarTitleText": "炸毛Music",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

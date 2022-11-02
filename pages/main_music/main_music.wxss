@@ -1,0 +1,20 @@
+/* pages/main_music/main_music.wxss */
+page {
+  background-color: #fafafa;
+  --search-background-color:#fff;
+}
+/* 第一种方法 */
+/* .van-search__content {
+  background-color: #fff !important;
+} */
+
+/* 轮播图的样式 */
+.banner {
+  border-radius: 12rpx;
+  overflow: hidden;
+  /* height: 260rpx; */
+}
+
+.banner-image {
+  width: 100%;
+}

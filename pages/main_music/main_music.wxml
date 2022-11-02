@@ -1,0 +1,30 @@
+<!--pages/main_music/main_music.wxml-->
+<van-search 
+  value="{{ searchValue }}" 
+  placeholder="请输入搜索关键词" 
+  shape="round"
+  background="#fafafa"
+  bind:click-input="onSearchClick"
+/>
+
+<!-- 2.轮播图的展示 -->
+<swiper 
+  class="banner"
+  circular
+  indicator-dots
+  style="height: {{bannerHeight}}px;"
+  wx:if="{{banners.length}}"
+>
+  <block wx:for="{{banners}}" wx:key="targetId">
+    <swiper-item class="item">
+      <image 
+        class="banner-image" 
+        src="{{item.imageUrl}}" 
+        mode="widthFix"
+        bindload="onBannerImageLoad"
+      />
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- <image src="http://p1.music.126.net/vYncy_1ULxBJK0iuH8PGsw==/109951168022828892.jpg"></image> -->

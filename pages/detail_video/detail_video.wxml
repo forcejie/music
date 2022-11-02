@@ -1,0 +1,36 @@
+<!--pages/detail_video/detail_video.wxml-->
+<wxs src="/utils/format.wxs" module="fmt"></wxs>
+<video 
+ class="video"
+  src="{{mvUrl}}"
+  danmu-list="{{danmuList}}"
+  referrer-policy="origin"
+></video>
+
+
+<scroll-view class="main" scroll-y>
+  <view class="info">
+  <view class="name">{{mvInfo.name}}</view>
+  <view class="artist">{{mvInfo.artistName}}-</view>
+  <view class="box">
+    <view class="duration">
+      {{fmt.formatCount(mvInfo.duration)}}
+      <text>次播放 -  </text>
+    </view>
+    <view class="time">{{mvInfo.publishTime}}</view>
+  </view>
+  </view>
+
+  <view class="related">
+    <view class="tip">推荐视频</view>
+    <block wx:for="{{relatedVideo}}" wx:key="vid">
+      <view class="video">
+          <image src="{{item.coverUrl}}" mode="widthFix" class="cover"></image>
+        <view class="content"> 
+          <view class="title">{{item.title}}</view>
+          <view class="user">{{item.creator[0].userName}}</view>
+        </view>
+      </view>
+    </block>
+  </view>
+</scroll-view>

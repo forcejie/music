@@ -1,0 +1,66 @@
+/* pages/detail_video/detail_video.wxss */
+page {
+  height: 100vh;
+}
+.video {
+  width: 100%;
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+}
+.main {
+  height: calc(100% - 225rpx);
+}
+.tip {
+  margin-left: 35rpx;
+  margin-top: 50rpx;
+}
+.info {
+  margin-top: 10rpx;
+  margin-left: 40rpx;
+}
+.name {
+  font-size: 45rpx;
+  font-weight: 500;
+  color: rgb(17, 17, 17);
+}
+.artist {
+  font-size: 30rpx;
+  padding: 5rpx 0;
+  color: rgb(110, 109, 108);
+}
+.box {
+  display: flex;
+  font-size: 30rpx;
+  padding: 5rpx 0;
+  color: rgb(110, 109, 108);
+}
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cover {
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  width: 40%;
+  border-radius: 12rpx;
+}
+
+.content {
+  flex: 1;
+}
+.title {
+  flex: 1;
+  margin-top: 30rpx;
+  flex-wrap: wrap;
+  font-size: 30rpx;
+  color: rgb(21, 22, 22);
+  font-weight: 500;
+  margin-left: 20rpx;
+}
+.user {
+  font-size: 23rpx;
+  margin-left: 20rpx;
+  color: rgb(96, 96, 97);
+}
