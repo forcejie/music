@@ -12,6 +12,7 @@
   class="banner"
   circular
   indicator-dots
+  autoplay
   style="height: {{bannerHeight}}px;"
   wx:if="{{banners.length}}"
 >
@@ -27,4 +28,7 @@
   </block>
 </swiper>
 
-<!-- <image src="http://p1.music.126.net/vYncy_1ULxBJK0iuH8PGsw==/109951168022828892.jpg"></image> -->
+<!-- 3.更多 -->
+<view>
+  <area-header title="推荐歌曲" bind:moreclick="onRecommendClick"></area-header>
+</view>

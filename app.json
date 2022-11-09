@@ -4,7 +4,8 @@
     "pages/main_video/main_video",
     "components/video-item/video-item",
     "pages/detail_video/detail_video",
-    "pages/detail_search/detail_search"
+    "pages/detail_search/detail_search",
+    "components/area-header/area-header"
   ],
   "tabBar": {
     "list": [
