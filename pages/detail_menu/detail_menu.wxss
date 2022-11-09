@@ -1,0 +1,10 @@
+/* pages/detail_menu/detail_menu.wxss */
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.list .iten {
+  width: 48%;
+}

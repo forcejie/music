@@ -9,5 +9,12 @@ Component({
       type: Array,
       value: []
     }
+  },
+  methods:{
+    onMenuMoreClick(){
+      wx.navigateTo({
+        url: '/pages/detail_menu/detail_menu',
+      })
+    }
   }
 })

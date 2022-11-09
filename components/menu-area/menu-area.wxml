@@ -1,6 +1,6 @@
 <!--components/menu-area/menu-area.wxml-->
 <view class="menu">
-  <area-header title="{{title}}"/>
+  <area-header title="{{title}}" bind:moreclick="onRecommendClick" bindtap="onMenuMoreClick"/>
   <scroll-view class="list" scroll-x enable-flex>
     <block wx:for="{{menulist}}" wx:key="id">
      <view class="item">

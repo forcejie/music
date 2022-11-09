@@ -35,6 +35,13 @@
           "query": "id=14576464",
           "launchMode": "default",
           "scene": null
+        },
+        {
+          "name": "详细歌单",
+          "pathName": "pages/detail_menu/detail_menu",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }
