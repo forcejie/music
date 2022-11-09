@@ -6,7 +6,10 @@
     "pages/detail_video/detail_video",
     "pages/detail_search/detail_search",
     "components/area-header/area-header",
-    "components/song-item-v1/song-item-v1"
+    "components/song-item-v1/song-item-v1",
+    "pages/detail_songs/detail_songs",
+    "components/menu-item/menu-item",
+    "components/menu-area/menu-area"
   ],
   "tabBar": {
     "list": [
