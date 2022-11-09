@@ -28,7 +28,12 @@
   </block>
 </swiper>
 
-<!-- 3.更多 -->
+<!-- 3.推荐歌曲的展示 -->
 <view>
   <area-header title="推荐歌曲" bind:moreclick="onRecommendClick"></area-header>
+  <view>
+    <block wx:for="{{recommendSongs}}" wx:key="id" >
+      <song-item-v1 itemData="{{item}}"/>
+    </block>
+  </view>
 </view>

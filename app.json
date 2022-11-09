@@ -5,7 +5,8 @@
     "components/video-item/video-item",
     "pages/detail_video/detail_video",
     "pages/detail_search/detail_search",
-    "components/area-header/area-header"
+    "components/area-header/area-header",
+    "components/song-item-v1/song-item-v1"
   ],
   "tabBar": {
     "list": [
